@@ -42,6 +42,13 @@
                     "label": "Foo Field",
                     "required": true,
                     "viewClass": "TextFieldView"
+                },
+                "templateName": {
+                    "label": "Template",
+                    "required": true,
+                    "viewClass": "SelectView",
+                    "model": "getTemplateModel",
+                    "prompt":"Select Template"
                 }
             },
             "metadata": {
