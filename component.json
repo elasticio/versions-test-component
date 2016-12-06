@@ -8,6 +8,11 @@
                 "label": "Username",
                 "required": true,
                 "viewClass": "TextFieldView"
+            },
+            "password": {
+                "label": "Password",
+                "required": true,
+                "viewClass": "TextFieldView"
             }
         }
     },
