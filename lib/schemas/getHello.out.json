@@ -5,6 +5,11 @@
             "type": "string",
             "required": true,
             "title": "Greeting"
+        },
+        "greetingAgain": {
+            "type": "string",
+            "required": true,
+            "title": "Greeting Again"
         }
     }
 }

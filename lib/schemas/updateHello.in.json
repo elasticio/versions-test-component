@@ -5,6 +5,11 @@
             "type": "string",
             "required": true,
             "title": "Greeting"
+        },
+        "greetingDe": {
+            "type": "string",
+            "required": true,
+            "title": "Greeting in German"
         }
     }
 }
