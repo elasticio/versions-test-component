@@ -51,10 +51,7 @@
                     "prompt":"Select Template"
                 }
             },
-            "metadata": {
-                "in": "./lib/schemas/updateHello.in.json",
-                "out": "./lib/schemas/updateHello.out.json"
-            }
+            "dynamicMetadata": true
         }
     }
 }
