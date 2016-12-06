@@ -21,6 +21,13 @@
             "main": "./lib/triggers/getHello.js",
             "type": "polling",
             "title": "Query Hello",
+            "fields": {
+                "foo": {
+                    "label": "Foo Field",
+                    "required": true,
+                    "viewClass": "TextFieldView"
+                }
+            },
             "metadata": {
                 "out": "./lib/schemas/getHello.out.json"
             }
@@ -30,6 +37,13 @@
         "updateHello": {
             "main": "./lib/actions/updateHello.js",
             "title": "Update Hello",
+            "fields": {
+                "foo": {
+                    "label": "Foo Field",
+                    "required": true,
+                    "viewClass": "TextFieldView"
+                }
+            },
             "metadata": {
                 "in": "./lib/schemas/updateHello.in.json",
                 "out": "./lib/schemas/updateHello.out.json"
